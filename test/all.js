@@ -46,7 +46,7 @@ var postcode = require('../lib/index.js');
     country: "UK"
   } 
 ].forEach(function(item) {
-  assert.ok(postcode.validate(item.code, item.country), "Valid postcode " + item.code + " for country " + item.country + "was invalid");
+  assert.ok(postcode.validate(item.code, item.country), "Valid postcode " + item.code + " for country " + item.country + " was invalid");
 });
 
 // Invalid postcodes
